@@ -1,13 +1,75 @@
 # Python-generated files
 __pycache__/
 *.py[oc]
+*.py[cod]
+*.so
+.Python
 build/
 dist/
 wheels/
 *.egg-info
+.eggs/
 
 # Virtual environments
 .venv
+venv/
+.env
+env/
+ENV/
+.env.*
+*.pem
+*.key
+!.env.example
 
 
+#Tests
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+#Datasets
+data/raw/*
+data/processed/*
+data/quarantine/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/quarantine/.gitkeep
+
+#Model artifacts
+*.pt
+*.safetensors
+*.bin
+*.onnx
+*.engine
+adapters/
+checkpoints/
+runs/
+
+
+#Monitoring
+mlruns/
+mlflow.db
+*.sqlite
+*.db
+prometheus/
+grafana/
+
+#Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+#Logs
+*.log
+logs/
+
+# Documentation
 Guide
