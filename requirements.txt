@@ -1,0 +1,11 @@
+# Kaggle pre-installs torch, transformers, and datasets at fixed versions,
+# so this file pins only what Kaggle does NOT already provide.
+peft>=0.21.2
+trl>=1.14.2
+bitsandbytes>=0.50.2
+accelerate>=1.15.0
+mlflow>=3.17.0
+pydantic>=2.13.5
+pyyaml>=6.0.3
+jsonschema>=4.26.0
+# WARNING: not meant to be run locally — local installs use: pip install -e ".[train]"
